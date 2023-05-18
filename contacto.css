@@ -1,0 +1,195 @@
+header{
+    background: linear-gradient(45deg, #05058d, white,  #a80d0d);
+    padding: 20px 0;
+}
+
+.logo-negro1{
+    position: relative;
+    right: 0px;
+}
+
+.logo-negro2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 30%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(29, 42, 151);
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    width: 35%;
+}
+
+.checkbox, .horario{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: url(imagenes/bg.jpg);
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: rgb(163, 22, 22);
+    transform: scale(1.2);
+}
+.enviar:active{
+    background: red;
+}
+
+h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 15%;
+}
+
+table{
+    margin: 30px 9%;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+@media screen and (max-width:940px){
+
+    h1, nav{
+        position: static;
+        
+    }
+    nav{
+        text-align: center;
+    }
+
+    .caja, .principal, header{
+        width: auto;
+    }
+
+    
+    
+}
+
+/* Estilos generales */
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width:940px){
+
+    h1, nav{
+        position: static;
+        
+    }
+    nav{
+        text-align: center;
+    }
+
+    .caja{
+        width: auto;
+    }
+
+    form{
+        
+    }
+    
+    
+}
+  
+
+@media screen and (max-width:480px){
+
+    h1, nav{
+        position: static;
+        
+    }
+    nav a{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .caja, header{
+        width: auto;
+    }
+    
+
+    
+}
